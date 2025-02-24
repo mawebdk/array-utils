@@ -1,0 +1,21 @@
+{
+  "name": "mawebdk/array-utils",
+  "description": "ArrayUtils contains array utilities.",
+  "license": "BSD-2-Clause",
+  "require": {
+    "php": "^8.3.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^12.0.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "MawebDK\\ArrayUtils\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MawebDK\\ArrayUtils\\Test\\": "test/"
+    }
+  }
+}
